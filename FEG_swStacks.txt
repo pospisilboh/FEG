@@ -1,6 +1,6 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sws: <http://www.feg.org/2020/08/swStacks#> .
+@prefix sws: <https://raw.githubusercontent.com/pospisilboh/FEG/main/FEG_swStacks.txt#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 
 <http://www.nsmntx.org/2020/08/swStacks>
