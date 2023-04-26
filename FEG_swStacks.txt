@@ -175,3 +175,20 @@ wd:Q105099901
   a owl:Class ;
   rdfs:subClassOf sws:BOBstack ;
   rdfs:label "Jupyter Notebook" . 
+  
+wd:Q1359246
+  a owl:Class ;
+  rdfs:subClassOf sws:BOBstack ;
+  rdfs:label "Jira" . 
+
+wd:Q837012
+  a owl:Class ;
+  rdfs:subClassOf sws:BOBstack ;
+  rdfs:label "Enterprise Architect" . 
+  
+wd:Q18346546
+  a owl:Class ;
+  rdfs:subClassOf sws:BOBstack ;
+  rdfs:label "PlantUML" . 
+ 
+
