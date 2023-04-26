@@ -3,7 +3,7 @@
 @prefix sws: <https://raw.githubusercontent.com/pospisilboh/FEG/main/FEG_swStacks.txt#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 
-<http://www.nsmntx.org/2020/08/swStacks>
+<https://raw.githubusercontent.com/pospisilboh/FEG/main/FEG_swStacks.txt>
   a owl:Ontology ;
   rdfs:comment "This ontology describes some of the Software stacks in FEG."@en .
 
