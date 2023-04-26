@@ -1,0 +1,177 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sws: <http://www.feg.org/2020/08/swStacks#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<http://www.nsmntx.org/2020/08/swStacks>
+  a owl:Ontology ;
+  rdfs:comment "This ontology describes some of the Software stacks in FEG."@en .
+
+
+sws:SoftwareStack
+  a owl:Class ;
+  rdfs:label "FEG Software Stack" .
+
+#### GRAND Stack ####
+
+sws:GRANDstack
+  a owl:Class ;
+  rdfs:subClassOf sws:SoftwareStack ;
+  rdfs:label "GRAND Stack" .
+
+wd:Q25104949
+  a owl:Class ;
+  rdfs:subClassOf sws:GRANDstack ;
+  rdfs:label "GraphQL" .
+
+wd:Q19399674
+  a owl:Class ; 
+  rdfs:subClassOf sws:GRANDstack ;
+  rdfs:label "React" .
+
+wd:Q1628290
+  a owl:Class ;
+  rdfs:subClassOf sws:GRANDstack ;
+  rdfs:label "Neo4j" .
+
+sws:Apollo
+  a owl:Class ;
+  rdfs:subClassOf sws:GRANDstack ;
+  rdfs:label "Apollo (Data Graph Platform)" . 
+
+
+#### GRAND Stack ####
+
+sws:GRANDstack
+  a owl:Class ;
+  rdfs:subClassOf sws:SoftwareStack ;
+  rdfs:label "GRAND Stack" .
+
+wd:Q25104949
+  a owl:Class ;
+  rdfs:subClassOf sws:GRANDstack ;
+  rdfs:label "GraphQL" .
+
+wd:Q19399674
+  a owl:Class ; 
+  rdfs:subClassOf sws:GRANDstack ;
+  rdfs:label "React" .
+
+wd:Q1628290
+  a owl:Class ;
+  rdfs:subClassOf sws:GRANDstack ;
+  rdfs:label "Neo4j" .
+
+sws:Apollo
+  a owl:Class ;
+  rdfs:subClassOf sws:GRANDstack ;
+  rdfs:label "Apollo (Data Graph Platform)" . 
+
+
+#### MEAN Stack ####
+
+sws:MEANstack
+  a owl:Class ;
+  rdfs:subClassOf sws:SoftwareStack ;
+  rdfs:label "MEAN Stack" .
+
+wd:Q16878131
+  a owl:Class ;
+  rdfs:subClassOf sws:MEANstack ;
+  rdfs:label "Express.js" .  
+
+wd:Q1165204
+  a owl:Class ;
+  rdfs:subClassOf sws:MEANstack ;
+  rdfs:label "MongoDB" .  
+
+wd:Q2849803
+  a owl:Class ;
+  rdfs:subClassOf sws:MEANstack ;
+  rdfs:label "AngularJS" .    
+
+wd:Q756100
+  a owl:Class ;
+  rdfs:subClassOf sws:MEANstack ;
+  rdfs:label "Node.js" .    
+
+
+ #### LAMP Stack ####
+
+sws:LAMPstack
+  a owl:Class ;
+  rdfs:subClassOf sws:SoftwareStack ;
+  rdfs:label "LAMP Stack" .
+
+wd:Q388
+  a owl:Class ;
+  rdfs:subClassOf sws:LAMPstack ;
+  rdfs:label "Linux" .  
+
+wd:Q11354
+  a owl:Class ;
+  rdfs:subClassOf sws:LAMPstack ;
+  rdfs:label "Apache HTTP Server" .  
+
+wd:Q850
+  a owl:Class ;
+  rdfs:subClassOf sws:LAMPstack ;
+  rdfs:label "MySQL" .  
+
+ wd:Q787177
+  a owl:Class ;
+  rdfs:subClassOf sws:LAMPstack ;
+  rdfs:label "MariaDB" .   
+
+wd:Q42478
+  a owl:Class ;
+  rdfs:subClassOf sws:LAMPstack ;
+  rdfs:label "Perl" .  
+
+wd:Q59
+  a owl:Class ;
+  rdfs:subClassOf sws:LAMPstack ;
+  rdfs:label "PHP" .  
+
+ wd:Q28865
+  a owl:Class ;
+  rdfs:subClassOf sws:LAMPstack ;
+  rdfs:label "Python" .   
+
+
+  #### BOB Stack ####
+
+sws:BOBstack
+  a owl:Class ;
+  rdfs:subClassOf sws:SoftwareStack ;
+  rdfs:label "BOB Stack" .
+
+wd:Q289281
+  a owl:Class ;
+  rdfs:subClassOf sws:BOBstack ;
+  rdfs:label "Flask" .
+
+wd:Q28865
+  a owl:Class ; 
+  rdfs:subClassOf sws:BOBstack ;
+  rdfs:label "Python" .
+
+wd:Q1628290
+  a owl:Class ;
+  rdfs:subClassOf sws:BOBstack ;
+  rdfs:label "Neo4j" .
+
+wd:Q7673435
+  a owl:Class ;
+  rdfs:subClassOf sws:BOBstack ;
+  rdfs:label "Tableau Software" . 
+
+wd:Q17054505
+  a owl:Class ;
+  rdfs:subClassOf sws:BOBstack ;
+  rdfs:label "Google Cloud Platform" .
+
+wd:Q105099901
+  a owl:Class ;
+  rdfs:subClassOf sws:BOBstack ;
+  rdfs:label "Jupyter Notebook" . 
